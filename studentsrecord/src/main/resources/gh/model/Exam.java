@@ -3,6 +3,7 @@ package model;
 import java.util.Date;
 
 public class Exam {
+
 	private long id;
 	private String title;
 	private Date startDate;

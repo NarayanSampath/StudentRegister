@@ -1,21 +1,20 @@
 package model;
 
-public class Remarks {
+public class Community {
 	private Long id;
-	private String name;
+	private String communityName;
 	private String description;
-	private Integer type;
 	public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getCommunityName() {
+		return communityName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setCommunityName(String communityName) {
+		this.communityName = communityName;
 	}
 	public String getDescription() {
 		return description;
@@ -23,11 +22,5 @@ public class Remarks {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Integer getType() {
-		return type;
-	}
-	public void setType(Integer type) {
-		this.type = type;
-	}
 	
-	}
+}

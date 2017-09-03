@@ -1,40 +1,35 @@
 package model;
 
 public class School {
+	
 	private Long id;
 	private Address address;
 	private Long contact;
-	private String hM;
-	private String classTeacher;
-	public Long getId() {
-		return id;
-	}
+	private String headMaster;
 	public void setId(Long id) {
 		this.id = id;
-	}
-	public Address getAddress() {
-		return address;
 	}
 	public void setAddress(Address address) {
 		this.address = address;
 	}
-	public Long getContact() {
-		return contact;
-	}
 	public void setContact(Long contact) {
 		this.contact = contact;
 	}
-	public String gethM() {
-		return hM;
+	public void setHeadMaster(String headMaster) {
+		this.headMaster = headMaster;
 	}
-	public void sethM(String hM) {
-		this.hM = hM;
+	public Long getId() {
+		return id;
 	}
-	public String getClassTeacher() {
-		return classTeacher;
+	public Address getAddress() {
+		return address;
 	}
-	public void setClassTeacher(String classTeacher) {
-		this.classTeacher = classTeacher;
+	public Long getContact() {
+		return contact;
 	}
+	public String getHeadMaster() {
+		return headMaster;
+	}
+
 	
 }

@@ -29,5 +29,5 @@ public class Result {
 	public void setRank(Rank rank) {
 		this.rank = rank;
 	}
-	
+		
 }

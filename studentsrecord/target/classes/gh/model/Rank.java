@@ -36,5 +36,5 @@ public class Rank {
 	public void setStateRank(Integer stateRank) {
 		this.stateRank = stateRank;
 	}
-	
+		
 }

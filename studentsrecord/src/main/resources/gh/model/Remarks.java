@@ -30,4 +30,4 @@ public class Remarks {
 		this.type = type;
 	}
 	
-}
+	}

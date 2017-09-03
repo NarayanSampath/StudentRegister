@@ -2,7 +2,7 @@ package model;
 
 public class Subject {
 	private Long id;
-	private String subject;
+	private String subjectName;
 	private Integer mark;
 	public Long getId() {
 		return id;
@@ -10,11 +10,11 @@ public class Subject {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getSubject() {
-		return subject;
+	public String getSubjectName() {
+		return subjectName;
 	}
-	public void setSubject(String subject) {
-		this.subject = subject;
+	public void setSubjectName(String subjectName) {
+		this.subjectName = subjectName;
 	}
 	public Integer getMark() {
 		return mark;
@@ -23,4 +23,4 @@ public class Subject {
 		this.mark = mark;
 	}
 	
-}
+	}

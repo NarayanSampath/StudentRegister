@@ -3,15 +3,16 @@ package model;
 import java.util.Date;
 
 public class Student {
+	
 	private Long id;
-	private String name;
-	private Date dob;
-	private Address address;
-	private School school;
-	private Guardian guardian;
-	private Result result;
+	private String studentName;
 	private 	Integer standard;
-	private String bloodgroup;
+	
+	private StudentInfo studentInfo;
+	private StudSchoolInfo studSchoolInfo;
+	private StudHostelInfo studHostelInfo;
+	private School school;
+	private Result result;
 	private Remarks remarks;
 	public Long getId() {
 		return id;
@@ -19,35 +20,11 @@ public class Student {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getStudentName() {
+		return studentName;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public Date getDob() {
-		return dob;
-	}
-	public void setDob(Date dob) {
-		this.dob = dob;
-	}
-	public School getSchool() {
-		return school;
-	}
-	public void setSchool(School school) {
-		this.school = school;
-	}
-	public Guardian getGuardian() {
-		return guardian;
-	}
-	public void setGuardian(Guardian guardian) {
-		this.guardian = guardian;
-	}
-	public Result getResult() {
-		return result;
-	}
-	public void setResult(Result result) {
-		this.result = result;
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
 	}
 	public Integer getStandard() {
 		return standard;
@@ -55,11 +32,35 @@ public class Student {
 	public void setStandard(Integer standard) {
 		this.standard = standard;
 	}
-	public String getBloodgroup() {
-		return bloodgroup;
+	public StudentInfo getStudentInfo() {
+		return studentInfo;
 	}
-	public void setBloodgroup(String bloodgroup) {
-		this.bloodgroup = bloodgroup;
+	public void setStudentInfo(StudentInfo studentInfo) {
+		this.studentInfo = studentInfo;
+	}
+	public StudSchoolInfo getStudSchoolInfo() {
+		return studSchoolInfo;
+	}
+	public void setStudSchoolInfo(StudSchoolInfo studSchoolInfo) {
+		this.studSchoolInfo = studSchoolInfo;
+	}
+	public StudHostelInfo getStudHostelInfo() {
+		return studHostelInfo;
+	}
+	public void setStudHostelInfo(StudHostelInfo studHostelInfo) {
+		this.studHostelInfo = studHostelInfo;
+	}
+	public School getSchool() {
+		return school;
+	}
+	public void setSchool(School school) {
+		this.school = school;
+	}
+	public Result getResult() {
+		return result;
+	}
+	public void setResult(Result result) {
+		this.result = result;
 	}
 	public Remarks getRemarks() {
 		return remarks;
@@ -68,4 +69,5 @@ public class Student {
 		this.remarks = remarks;
 	}
 	
+		
 }
